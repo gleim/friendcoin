@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16275EF2144D26C10041AF02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16275EF1144D26C10041AF02 /* QuartzCore.framework */; };
+		16924B0C144156FE00E6E556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0B144156FE00E6E556 /* UIKit.framework */; };
+		16924B0E144156FE00E6E556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0D144156FE00E6E556 /* Foundation.framework */; };
+		16924B10144156FE00E6E556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0F144156FE00E6E556 /* CoreGraphics.framework */; };
+		7209296B17A0477300A21011 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7209296A17A0477300A21011 /* Accelerate.framework */; };
+		721AB57817A41DA700B788BA /* BackgroundLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721AB57717A41DA700B788BA /* BackgroundLayerViewController.m */; };
+		724949D717A2EE2C00932FC2 /* qrCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949D617A2EE2C00932FC2 /* qrCode.png */; };
+		724949E317A3014E00932FC2 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DA17A3014E00932FC2 /* 0.jpg */; };
+		724949E417A3014E00932FC2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DB17A3014E00932FC2 /* 1.jpg */; };
+		724949E517A3014E00932FC2 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DC17A3014E00932FC2 /* 2.jpg */; };
+		724949E617A3014E00932FC2 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DD17A3014E00932FC2 /* 3.jpg */; };
+		724949E717A3014E00932FC2 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DE17A3014E00932FC2 /* 4.jpg */; };
+		724949E817A3014E00932FC2 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949DF17A3014E00932FC2 /* 5.jpg */; };
+		724949E917A3014E00932FC2 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949E017A3014E00932FC2 /* 6.jpg */; };
+		724949EA17A3014E00932FC2 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949E117A3014E00932FC2 /* 7.jpg */; };
+		724949EB17A3014E00932FC2 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 724949E217A3014E00932FC2 /* 8.jpg */; };
+		724949F217A3019C00932FC2 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949EC17A3019C00932FC2 /* cart.png */; };
+		724949F317A3019C00932FC2 /* give.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949ED17A3019C00932FC2 /* give.png */; };
+		724949F417A3019C00932FC2 /* holder.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949EE17A3019C00932FC2 /* holder.png */; };
+		724949F517A3019C00932FC2 /* moneybag.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949EF17A3019C00932FC2 /* moneybag.png */; };
+		724949F617A3019C00932FC2 /* qrCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949F017A3019C00932FC2 /* qrCode.png */; };
+		724949F717A3019C00932FC2 /* take.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949F117A3019C00932FC2 /* take.png */; };
+		724949F917A301DC00932FC2 /* close_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 724949F817A301DC00932FC2 /* close_x.png */; };
+		7253A7F217A0D9CA00B1934F /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253A7F117A0D9CA00B1934F /* KGModal.m */; };
+		7253A7F417A0DB7E00B1934F /* KGModal.h in Sources */ = {isa = PBXBuildFile; fileRef = 7253A7F017A0D9CA00B1934F /* KGModal.h */; };
+		728F666517A81AE400BE9EED /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 728F666417A81AE400BE9EED /* libGMGridView.a */; };
+		72A5994417A4C31F003F2087 /* AksStraightPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A5994317A4C31F003F2087 /* AksStraightPieChart.m */; };
+		72F3C49717A82272005444CA /* homeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3C49617A82272005444CA /* homeScreen.m */; };
+		785092D4149FABAC000787E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785092CF149FABAC000787E4 /* AppDelegate.m */; };
+		785092DB149FABB6000787E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785092D9149FABB6000787E4 /* main.m */; };
+		78509333149FAC52000787E4 /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78509330149FAC48000787E4 /* libGMGridView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7850932F149FAC48000787E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78509328149FAC48000787E4 /* GMGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78509312149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+		78509331149FAC4F000787E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78509328149FAC48000787E4 /* GMGridView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78509311149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16275EF1144D26C10041AF02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		16924B07144156FE00E6E556 /* GMGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16924B0B144156FE00E6E556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16924B0D144156FE00E6E556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16924B0F144156FE00E6E556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7209296A17A0477300A21011 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		721AB57617A41DA700B788BA /* BackgroundLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayerViewController.h; sourceTree = SOURCE_ROOT; };
+		721AB57717A41DA700B788BA /* BackgroundLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayerViewController.m; sourceTree = SOURCE_ROOT; };
+		724949D617A2EE2C00932FC2 /* qrCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qrCode.png; path = Images/qrCode.png; sourceTree = SOURCE_ROOT; };
+		724949DA17A3014E00932FC2 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpg; path = Images/Contacts/0.jpg; sourceTree = SOURCE_ROOT; };
+		724949DB17A3014E00932FC2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Images/Contacts/1.jpg; sourceTree = SOURCE_ROOT; };
+		724949DC17A3014E00932FC2 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = Images/Contacts/2.jpg; sourceTree = SOURCE_ROOT; };
+		724949DD17A3014E00932FC2 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = Images/Contacts/3.jpg; sourceTree = SOURCE_ROOT; };
+		724949DE17A3014E00932FC2 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Images/Contacts/4.jpg; sourceTree = SOURCE_ROOT; };
+		724949DF17A3014E00932FC2 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Images/Contacts/5.jpg; sourceTree = SOURCE_ROOT; };
+		724949E017A3014E00932FC2 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = Images/Contacts/6.jpg; sourceTree = SOURCE_ROOT; };
+		724949E117A3014E00932FC2 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = Images/Contacts/7.jpg; sourceTree = SOURCE_ROOT; };
+		724949E217A3014E00932FC2 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpg; path = Images/Contacts/8.jpg; sourceTree = SOURCE_ROOT; };
+		724949EC17A3019C00932FC2 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Images/cart.png; sourceTree = SOURCE_ROOT; };
+		724949ED17A3019C00932FC2 /* give.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = give.png; path = Images/give.png; sourceTree = SOURCE_ROOT; };
+		724949EE17A3019C00932FC2 /* holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holder.png; path = Images/holder.png; sourceTree = SOURCE_ROOT; };
+		724949EF17A3019C00932FC2 /* moneybag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moneybag.png; path = Images/moneybag.png; sourceTree = SOURCE_ROOT; };
+		724949F017A3019C00932FC2 /* qrCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qrCode.png; path = Images/qrCode.png; sourceTree = SOURCE_ROOT; };
+		724949F117A3019C00932FC2 /* take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = take.png; path = Images/take.png; sourceTree = SOURCE_ROOT; };
+		724949F817A301DC00932FC2 /* close_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_x.png; path = Images/close_x.png; sourceTree = SOURCE_ROOT; };
+		7253A7F017A0D9CA00B1934F /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = SOURCE_ROOT; };
+		7253A7F117A0D9CA00B1934F /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = SOURCE_ROOT; };
+		728F666417A81AE400BE9EED /* libGMGridView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGMGridView.a; sourceTree = "<group>"; };
+		72A5994217A4C31F003F2087 /* AksStraightPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AksStraightPieChart.h; sourceTree = SOURCE_ROOT; };
+		72A5994317A4C31F003F2087 /* AksStraightPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AksStraightPieChart.m; sourceTree = SOURCE_ROOT; };
+		72F3C49517A82272005444CA /* homeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeScreen.h; sourceTree = SOURCE_ROOT; };
+		72F3C49617A82272005444CA /* homeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeScreen.m; sourceTree = SOURCE_ROOT; };
+		785092CE149FABAC000787E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		785092CF149FABAC000787E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		785092D7149FABB6000787E4 /* FriendCoin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FriendCoin-Info.plist"; sourceTree = SOURCE_ROOT; };
+		785092D8149FABB6000787E4 /* FriendCoin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FriendCoin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		785092D9149FABB6000787E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		78509328149FAC48000787E4 /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GMGridView.xcodeproj; path = ../GMGridView/GMGridView.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16924B04144156FE00E6E556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78509333149FAC52000787E4 /* libGMGridView.a in Frameworks */,
+				7209296B17A0477300A21011 /* Accelerate.framework in Frameworks */,
+				16275EF2144D26C10041AF02 /* QuartzCore.framework in Frameworks */,
+				16924B0C144156FE00E6E556 /* UIKit.framework in Frameworks */,
+				16924B0E144156FE00E6E556 /* Foundation.framework in Frameworks */,
+				16924B10144156FE00E6E556 /* CoreGraphics.framework in Frameworks */,
+				728F666517A81AE400BE9EED /* libGMGridView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16924AFC144156FD00E6E556 = {
+			isa = PBXGroup;
+			children = (
+				16924B11144156FE00E6E556 /* Demo */,
+				16924B0A144156FE00E6E556 /* Frameworks */,
+				16924B08144156FE00E6E556 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		16924B08144156FE00E6E556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16924B07144156FE00E6E556 /* GMGridView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16924B0A144156FE00E6E556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				728F666417A81AE400BE9EED /* libGMGridView.a */,
+				7209296A17A0477300A21011 /* Accelerate.framework */,
+				78509328149FAC48000787E4 /* GMGridView.xcodeproj */,
+				16275EF1144D26C10041AF02 /* QuartzCore.framework */,
+				16924B0B144156FE00E6E556 /* UIKit.framework */,
+				16924B0D144156FE00E6E556 /* Foundation.framework */,
+				16924B0F144156FE00E6E556 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16924B11144156FE00E6E556 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				72F3C49517A82272005444CA /* homeScreen.h */,
+				72F3C49617A82272005444CA /* homeScreen.m */,
+				7253A7F017A0D9CA00B1934F /* KGModal.h */,
+				7253A7F117A0D9CA00B1934F /* KGModal.m */,
+				72A5994217A4C31F003F2087 /* AksStraightPieChart.h */,
+				72A5994317A4C31F003F2087 /* AksStraightPieChart.m */,
+				785092CE149FABAC000787E4 /* AppDelegate.h */,
+				785092CF149FABAC000787E4 /* AppDelegate.m */,
+				721AB57617A41DA700B788BA /* BackgroundLayerViewController.h */,
+				721AB57717A41DA700B788BA /* BackgroundLayerViewController.m */,
+				724949D517A2EDF100932FC2 /* Assets */,
+				724949D017A2ED6700932FC2 /* XIBs */,
+				16924B12144156FE00E6E556 /* Supporting Files */,
+			);
+			name = Demo;
+			path = DraggableGridView;
+			sourceTree = "<group>";
+		};
+		16924B12144156FE00E6E556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				785092D7149FABB6000787E4 /* FriendCoin-Info.plist */,
+				785092D8149FABB6000787E4 /* FriendCoin-Prefix.pch */,
+				785092D9149FABB6000787E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		724949D017A2ED6700932FC2 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		724949D517A2EDF100932FC2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				724949D917A3010400932FC2 /* Contacts */,
+				724949D617A2EE2C00932FC2 /* qrCode.png */,
+				724949EC17A3019C00932FC2 /* cart.png */,
+				724949ED17A3019C00932FC2 /* give.png */,
+				724949EE17A3019C00932FC2 /* holder.png */,
+				724949EF17A3019C00932FC2 /* moneybag.png */,
+				724949F017A3019C00932FC2 /* qrCode.png */,
+				724949F117A3019C00932FC2 /* take.png */,
+				724949F817A301DC00932FC2 /* close_x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		724949D917A3010400932FC2 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				724949DA17A3014E00932FC2 /* 0.jpg */,
+				724949DB17A3014E00932FC2 /* 1.jpg */,
+				724949DC17A3014E00932FC2 /* 2.jpg */,
+				724949DD17A3014E00932FC2 /* 3.jpg */,
+				724949DE17A3014E00932FC2 /* 4.jpg */,
+				724949DF17A3014E00932FC2 /* 5.jpg */,
+				724949E017A3014E00932FC2 /* 6.jpg */,
+				724949E117A3014E00932FC2 /* 7.jpg */,
+				724949E217A3014E00932FC2 /* 8.jpg */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		78509329149FAC48000787E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78509330149FAC48000787E4 /* libGMGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16924B06144156FE00E6E556 /* GMGridViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16924B28144156FE00E6E556 /* Build configuration list for PBXNativeTarget "GMGridViewExample" */;
+			buildPhases = (
+				16924B03144156FE00E6E556 /* Sources */,
+				16924B04144156FE00E6E556 /* Frameworks */,
+				16924B05144156FE00E6E556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78509332149FAC4F000787E4 /* PBXTargetDependency */,
+			);
+			name = GMGridViewExample;
+			productName = DraggableGridView;
+			productReference = 16924B07144156FE00E6E556 /* GMGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16924AFE144156FD00E6E556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = GMoledina.ca;
+			};
+			buildConfigurationList = 16924B01144156FD00E6E556 /* Build configuration list for PBXProject "FriendCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16924AFC144156FD00E6E556;
+			productRefGroup = 16924B08144156FE00E6E556 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 78509329149FAC48000787E4 /* Products */;
+					ProjectRef = 78509328149FAC48000787E4 /* GMGridView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				16924B06144156FE00E6E556 /* GMGridViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		78509330149FAC48000787E4 /* libGMGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGMGridView.a;
+			remoteRef = 7850932F149FAC48000787E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16924B05144156FE00E6E556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724949E917A3014E00932FC2 /* 6.jpg in Resources */,
+				724949E817A3014E00932FC2 /* 5.jpg in Resources */,
+				724949EA17A3014E00932FC2 /* 7.jpg in Resources */,
+				724949E317A3014E00932FC2 /* 0.jpg in Resources */,
+				724949EB17A3014E00932FC2 /* 8.jpg in Resources */,
+				724949E517A3014E00932FC2 /* 2.jpg in Resources */,
+				724949F217A3019C00932FC2 /* cart.png in Resources */,
+				724949E417A3014E00932FC2 /* 1.jpg in Resources */,
+				724949F917A301DC00932FC2 /* close_x.png in Resources */,
+				724949F617A3019C00932FC2 /* qrCode.png in Resources */,
+				724949F717A3019C00932FC2 /* take.png in Resources */,
+				724949F417A3019C00932FC2 /* holder.png in Resources */,
+				724949F317A3019C00932FC2 /* give.png in Resources */,
+				724949F517A3019C00932FC2 /* moneybag.png in Resources */,
+				724949E717A3014E00932FC2 /* 4.jpg in Resources */,
+				724949D717A2EE2C00932FC2 /* qrCode.png in Resources */,
+				724949E617A3014E00932FC2 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16924B03144156FE00E6E556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F3C49717A82272005444CA /* homeScreen.m in Sources */,
+				7253A7F417A0DB7E00B1934F /* KGModal.h in Sources */,
+				785092D4149FABAC000787E4 /* AppDelegate.m in Sources */,
+				721AB57817A41DA700B788BA /* BackgroundLayerViewController.m in Sources */,
+				785092DB149FABB6000787E4 /* main.m in Sources */,
+				7253A7F217A0D9CA00B1934F /* KGModal.m in Sources */,
+				72A5994417A4C31F003F2087 /* AksStraightPieChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78509332149FAC4F000787E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMGridView;
+			targetProxy = 78509331149FAC4F000787E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16924B26144156FE00E6E556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../GMGridView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16924B27144156FE00E6E556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../GMGridView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16924B29144156FE00E6E556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GMGridView-Prefix.pch";
+				INFOPLIST_FILE = "GMGridView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/TestFlight",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = GMGridView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16924B2A144156FE00E6E556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GMGridView-Prefix.pch";
+				INFOPLIST_FILE = "GMGridView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/TestFlight",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = GMGridView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16924B01144156FD00E6E556 /* Build configuration list for PBXProject "FriendCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16924B26144156FE00E6E556 /* Debug */,
+				16924B27144156FE00E6E556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16924B28144156FE00E6E556 /* Build configuration list for PBXNativeTarget "GMGridViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16924B29144156FE00E6E556 /* Debug */,
+				16924B2A144156FE00E6E556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16924AFE144156FD00E6E556 /* Project object */;
+}
